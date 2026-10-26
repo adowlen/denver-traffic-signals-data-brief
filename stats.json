@@ -1,0 +1,289 @@
+{
+  "source_pull_date": "2026-10-26",
+  "source_dataset": "ODC_TRANS_TRAFFICSIGNAL_P (Denver Open Data, ArcGIS FeatureServer layer 147)",
+  "service_last_edit": "2024-05-24",
+  "snapshot_date": "2026-10-26",
+  "total_records": 1288,
+  "signal_status_counter": {
+    "IN USE": 1288
+  },
+  "record_status_counter": {
+    "ACTIVE": 1288
+  },
+  "signal_owner_counter": {
+    "CCD": 1250,
+    "NOT DENVER": 37,
+    "NULL": 1
+  },
+  "signal_type_counter": {
+    "NULL": 1288
+  },
+  "with_location_id": 1230,
+  "with_geometry": 1288,
+  "without_geometry": 0,
+  "date_sentinels": {
+    "INSTALLATION_DATE": {
+      "null": 1288,
+      "sentinel_nonnull": 0
+    },
+    "REBUILD_DATE": {
+      "null": 1288,
+      "sentinel_nonnull": 0
+    },
+    "MAJOR_RETIME_DATE": {
+      "null": 1288,
+      "sentinel_nonnull": 0
+    },
+    "RECORD_DATE": {
+      "null": 1,
+      "sentinel_nonnull": 0
+    },
+    "FROM_DATE": {
+      "null": 1,
+      "sentinel_nonnull": 0
+    },
+    "TO_DATE": {
+      "null": 1288,
+      "sentinel_nonnull": 0
+    }
+  },
+  "with_install_date": 0,
+  "without_install_date": 1288,
+  "without_install_date_pct": 100.0,
+  "age_years": {
+    "median_known": null,
+    "mean_known": null,
+    "min_known": null,
+    "max_known": null,
+    "p25": null,
+    "p75": null,
+    "note": "No signal carries an installation date; no age statistic exists."
+  },
+  "from_date_record": {
+    "with_from_date": 1287,
+    "from_date_year_counter": {
+      "2012": 1287,
+      "unknown": 1
+    },
+    "from_date_exactly_2012_01_01": 1268,
+    "record_date_year_counter": {
+      "2012": 1287,
+      "unknown": 1
+    }
+  },
+  "empty_record": {
+    "count": 1,
+    "note": "Records with no TRAFFIC_SIGNAL_ID also carry no owner, location code, or any date; geometry and statuses only."
+  },
+  "install_decade_counter": {
+    "unknown": 1288
+  },
+  "install_year_min": null,
+  "install_year_max": null,
+  "ever_rebuilt": 0,
+  "never_rebuilt": 1288,
+  "never_rebuilt_pct_all": 100.0,
+  "ever_retimed": 0,
+  "never_retimed": 1288,
+  "never_retimed_pct_all": 100.0,
+  "neither_rebuilt_nor_retimed": 1288,
+  "neither_pct_all": 100.0,
+  "never_rebuilt_known_install": 0,
+  "never_rebuilt_known_install_pct": null,
+  "never_retimed_known_install": 0,
+  "never_retimed_known_install_pct": null,
+  "median_age_never_rebuilt_years": null,
+  "median_age_ever_rebuilt_years": null,
+  "age_cohorts_known_install": [
+    {
+      "cohort": "under 10 years",
+      "n": 0,
+      "never_rebuilt": 0,
+      "never_rebuilt_pct": null,
+      "never_retimed": 0,
+      "never_retimed_pct": null,
+      "neither": 0,
+      "neither_pct": null,
+      "small_group_flag": true
+    },
+    {
+      "cohort": "10 to under 20 years",
+      "n": 0,
+      "never_rebuilt": 0,
+      "never_rebuilt_pct": null,
+      "never_retimed": 0,
+      "never_retimed_pct": null,
+      "neither": 0,
+      "neither_pct": null,
+      "small_group_flag": true
+    },
+    {
+      "cohort": "20 to under 30 years",
+      "n": 0,
+      "never_rebuilt": 0,
+      "never_rebuilt_pct": null,
+      "never_retimed": 0,
+      "never_retimed_pct": null,
+      "neither": 0,
+      "neither_pct": null,
+      "small_group_flag": true
+    },
+    {
+      "cohort": "30 to under 40 years",
+      "n": 0,
+      "never_rebuilt": 0,
+      "never_rebuilt_pct": null,
+      "never_retimed": 0,
+      "never_retimed_pct": null,
+      "neither": 0,
+      "neither_pct": null,
+      "small_group_flag": true
+    },
+    {
+      "cohort": "40 years or more",
+      "n": 0,
+      "never_rebuilt": 0,
+      "never_rebuilt_pct": null,
+      "never_retimed": 0,
+      "never_retimed_pct": null,
+      "neither": 0,
+      "neither_pct": null,
+      "small_group_flag": true
+    }
+  ],
+  "rebuild_decade_counter": {
+    "none recorded": 1288
+  },
+  "retime_decade_counter": {
+    "none recorded": 1288
+  },
+  "rebuild_year_min": null,
+  "rebuild_year_max": null,
+  "retime_year_min": null,
+  "retime_year_max": null,
+  "control_rebuild_before_install": {
+    "both_dates_known": 0,
+    "violations": 0
+  },
+  "control_retime_before_install": {
+    "both_dates_known": 0,
+    "violations": 0
+  },
+  "years_since_last_recorded_work": {
+    "known": 0,
+    "unknown": 1288,
+    "median": null,
+    "over_20_years": 0,
+    "over_20_years_pct_of_known": null
+  },
+  "signals_with_neighborhood": 1229,
+  "signals_without_neighborhood": 59,
+  "top_neighborhoods_by_signals": [
+    [
+      "CBD",
+      71
+    ],
+    [
+      "Five Points",
+      65
+    ],
+    [
+      "Central Park",
+      62
+    ],
+    [
+      "Capitol Hill",
+      60
+    ],
+    [
+      "Hampden South",
+      39
+    ],
+    [
+      "Speer",
+      39
+    ],
+    [
+      "North Capitol Hill",
+      36
+    ],
+    [
+      "Union Station",
+      35
+    ],
+    [
+      "Lincoln Park",
+      34
+    ],
+    [
+      "Civic Center",
+      32
+    ]
+  ],
+  "neighborhoods_with_zero_signals": 0,
+  "median_signals_per_neighborhood": 12.0,
+  "unplaced_by_owner": {
+    "CCD": 35,
+    "NOT DENVER": 24
+  },
+  "placed_by_owner": {
+    "CCD": 1215,
+    "NOT DENVER": 13,
+    "NULL": 1
+  },
+  "control_downtown_grid": {
+    "neighborhoods": [
+      "CBD",
+      "Union Station",
+      "Civic Center"
+    ],
+    "signals": 138,
+    "share_of_fleet_pct": 10.7
+  },
+  "crash_source": {
+    "file": "denver-traffic-accidents-brief-2026-10-18/data/traffic_accidents_raw.parquet",
+    "era_rows_raw_2021plus": 106129,
+    "analysis_rows_2021plus_after_dedupe": 106121,
+    "definition": "reported_date America/Denver >= 2021-01-01; dedupe on offense_id; KSI crash = FATALITIES>0 or SERIOUSLY_INJURED>0 (crash-count basis)",
+    "with_coordinates": 101770,
+    "without_coordinates": 4351
+  },
+  "fusion": {
+    "150ft": {
+      "buffer": "150 ft (45.7 m)",
+      "crashes_near_signal": 35158,
+      "crashes_elsewhere": 66612,
+      "near_share_pct": 34.5,
+      "ksi_crashes_near": 988,
+      "ksi_crashes_elsewhere": 1391,
+      "ksi_share_near_pct": 2.8,
+      "ksi_share_elsewhere_pct": 2.1,
+      "ksi_persons_near": 1169,
+      "ksi_persons_elsewhere": 1634,
+      "intersection_flag_share_near_pct": 90.2,
+      "intersection_flag_share_elsewhere_pct": 77.9
+    },
+    "300ft": {
+      "buffer": "300 ft (91.4 m)",
+      "crashes_near_signal": 49688,
+      "crashes_elsewhere": 52082,
+      "near_share_pct": 48.8,
+      "ksi_crashes_near": 1264,
+      "ksi_crashes_elsewhere": 1115,
+      "ksi_share_near_pct": 2.5,
+      "ksi_share_elsewhere_pct": 2.1,
+      "ksi_persons_near": 1510,
+      "ksi_persons_elsewhere": 1293,
+      "intersection_flag_share_near_pct": 86.2,
+      "intersection_flag_share_elsewhere_pct": 78.4
+    }
+  },
+  "fusion_age_split_150ft": {
+    "crashes_nearest_signal_age_30plus": 0,
+    "ksi_share_age_30plus_pct": null,
+    "crashes_nearest_signal_age_under30": 0,
+    "ksi_share_age_under30_pct": null,
+    "crashes_near_signal_age_unknown": 35158,
+    "note": "Age of the single nearest signal within 150 ft; crashes near a signal whose install date is unknown are counted separately and excluded from both shares."
+  }
+}

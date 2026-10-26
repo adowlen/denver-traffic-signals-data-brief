@@ -1,0 +1,38 @@
+{
+  "layer_id": 147,
+  "service_last_edit_ms": 1716560890176,
+  "total_records": 1288,
+  "pulled_records": 1288,
+  "signal_status_counter": [
+    [
+      "IN USE",
+      1288
+    ]
+  ],
+  "record_status_counter": [
+    [
+      "ACTIVE",
+      1288
+    ]
+  ],
+  "signal_owner_counter": [
+    [
+      "CCD",
+      1250
+    ],
+    [
+      "NOT DENVER",
+      37
+    ],
+    [
+      null,
+      1
+    ]
+  ],
+  "signal_type_counter": [
+    [
+      null,
+      1288
+    ]
+  ]
+}
